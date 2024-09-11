@@ -17,19 +17,17 @@ obviously, Python.
 
 ## Installation
 
-The first step is to download the enet sources from http://enet.bespin.org and
-extract it to the enet/ directory in pyenet's source directory.  You could also
-check out the enet source code from their CVS repository.
+Just run
+```
+pip install enet-py
+```
 
-This version of pyenet requires enet 1.3.
+## Building
 
-Next step is to run the setup.py build:
+Obviously
 ```
-$ python setup.py build
-```
-Once that is complete, install the new pyenet module:
-```
-$ python setup.py install
+python setup.py build
+python setup.py install
 ```
 
 ## Usage
